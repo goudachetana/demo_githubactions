@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use("/home", (req,res) => {
     res.json({
-        msg:"Hi Im from express app-- after github ci cd pipeline"
+        msg:"Hi this is simple post and get api integration for checking githubactions"
     })
 })
 
